@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Flight app</title>
-	<meta charset="utf8">
+	<title>Search flight</title>
+	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+
+<!-- 
+	<div id="#page-wrapper"> -->
+			
+
+		<header>
+			<button class="fa fa-arrow-circle-left"></button>
+			<img src="img/logo.png">
+		</header>
+
+		<div id="main-wrapper">
+
+			<div id="search-field-wrapper">
+				<form>
+					
+					<input type="text" id="search-from" placeholder="From">
+					<input type="text" id="search-to" placeholder="To">
+					<input type="date" id="search-date" placeholder="Date">
+
+					<button class="expand-symbol">Return flight</button>
+
+					<h1>Preference profiles</h1>
+
+					<div id="radio-wrapper">
+
+						<input hidden="true" type="radio" id="radio-fastest" value="fastest">
+						<p data-radio="fastest">Fastest</p>
+
+						<input hidden="true" type="radio" id="radio-cheapest" value="cheapest">
+						<p data-radio="cheapest">Cheapest</p>
+
+						<input hidden="true" type="radio" id="radio-personal-choice" value="personal-choice">
+						<p data-radio="personal-choice">Personal choice</p>
+
+					</div> 
+
+					<button class="expand-symbol">View preferences</button>
+
+					<button type="submit">Find flight</button>
+
+
+				</form>
+
+
+
+
+
+			</div> <!-- #search-field-wrapper -->
+		</div> <!-- #main-wrapper -->
+
+	<!-- </div>  --><!-- #page-wrapper -->
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
 
 </body>
 </html>
