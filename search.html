@@ -5,11 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="css/main-style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
-
-	<div id="page-wrapper">
+<!-- 
+	<div id="#page-wrapper"> -->
 			
 
 		<header>
@@ -21,27 +22,29 @@
 
 			<div id="search-field-wrapper">
 				<form>
-					<label for="search-from">From</label>
+					
 					<input type="text" id="search-from" placeholder="From">
-					<label for="search-to">To</label>
 					<input type="text" id="search-to" placeholder="To">
-					<label for="search-date">Date</label>
 					<input type="date" id="search-date" placeholder="Date">
 
-					<button class="fa fa-plus-circle">Return flight</button>
+					<button class="expand-symbol">Return flight</button>
 
 					<h1>Preference profiles</h1>
 
 					<div id="radio-wrapper">
 
-						<input type="radio" id="radio-fastest" name="gender" value="male">
-						<p>Fastest</p>
-						
-						<input type="radio" name="gender" value="female"> Cheapest
-						<input type="radio" name="gender" value="other"> Your Profile 1
+						<input hidden="true" type="radio" id="radio-fastest" value="fastest">
+						<p data-radio="fastest">Fastest</p>
+
+						<input hidden="true" type="radio" id="radio-cheapest" value="cheapest">
+						<p data-radio="cheapest">Cheapest</p>
+
+						<input hidden="true" type="radio" id="radio-personal-choice" value="personal-choice">
+						<p data-radio="personal-choice">Personal choice</p>
+
 					</div> 
 
-					<button>View preferences</button>
+					<button class="expand-symbol">View preferences</button>
 
 					<button type="submit">Find flight</button>
 
@@ -55,7 +58,7 @@
 			</div> <!-- #search-field-wrapper -->
 		</div> <!-- #main-wrapper -->
 
-	</div> <!-- #page-wrapper -->
+	<!-- </div>  --><!-- #page-wrapper -->
 
 
 

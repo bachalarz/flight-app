@@ -1,5 +1,7 @@
 $primary-color: red;
-
+$button-hover-color: #cccccc;
+$button-height: 60px;
+$button-height-screen: 40px;
 
 
 * {
@@ -13,6 +15,8 @@ $primary-color: red;
 body {
 	width: 100vw;
 	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 header{
@@ -36,10 +40,15 @@ label {
 }
 
 input{
-	height: 60px;
+	height: $button-height;
     flex-basis: 100%;
     padding-left: 15px;
     margin-bottom: 20px;
+    border: none;
+    &:focus{
+    	outline: none;
+    	border: 1px solid black;
+    }
 }
 
 button {
@@ -51,6 +60,9 @@ button {
     cursor: pointer;
     &:hover {
     	cursor: pointer;
+    }
+    &:focus{
+    	outline: none;
     }
 }
 
@@ -65,25 +77,23 @@ form {
 h1 {
     flex-basis: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin: 50px 0 30px 0;
     text-transform: uppercase;
 }
 
-#page-wrapper{
-	height: 100vh;
-	width: 100vw;
-	
-}
+// #page-wrapper{
+// 	height: 100vh;
+// 	width: 100vw;	
+// }
 
 
 #main-wrapper {
-	/*height: calc(100vh - 60px);*/
 	height: 100%;
+	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	border: solid;
+	border: 2px solid #000000;
 	background-color: lightblue;
 	overflow-y: scroll;
 }
@@ -92,23 +102,132 @@ h1 {
 	width: 80%;
 	button{
 		flex-basis: 100%;
-    	height: 60px;
+    	height: $button-height;
     	background: white;
+    	&:last-child {
+    		margin-top: 40px;
+    	}
 	}
 }
 
-.fa-plus-circle:before {
+.fa-plus-circle::before {
     margin-right: 10px;
 }
 
+.expand-symbol::before {
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 1.5em;
+	content: "\f055";
+	margin-right: 10px;
+}
+
 #radio-wrapper{
-	display: inline-block;
-    flex-direction: row;
+	display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    p {
+    	flex-basis: 100%;
+    	height: $button-height;
+    	margin-bottom: 20px;
+    	line-height: $button-height;
+    	background: white;
+    	cursor: pointer;
+    	text-align: center;
+    	&:hover {
+    		background-color: $button-hover-color;
+    	}
+    }
 }
 #radio-wrapper input[type="radio"]{
 	height: 20px;
 }
 
+@media screen and ( min-width: 800px ) {
 
 
+	#main-wrapper{
+		background-color: steelblue;
+		height: calc(100vh - 60px);
+		justify-content: center;	
+	}
+
+	input{
+	    flex-basis: 0;
+	    flex-grow: 1;
+	    &:not(:first-child) {
+    		margin-left: 10px;
+    	}
+	}
+
+	#search-field-wrapper button {
+    	background: none;
+    	text-align: left;
+
+	}
+
+	#radio-wrapper {
+	    flex-direction: row;
+	    p{
+	    	&:not(:nth-child(2)){
+	    		margin-left: 10px;
+	    	}
+	    }
+
+	}
+
+	#search-field-wrapper {
+		form {
+	    	justify-content: flex-end;
+	    	h1{
+	    		margin: 20px 0;
+	    	}
+		}		
+		button{
+			
+	    	&:last-child {
+	    		background-color: #ffffff;
+	    		flex-basis: 33%;
+	    		text-align: center;
+	    	}
+		}
+	}
+    
+}
+
+@media screen and ( min-width: 1200px ) {
+	#search-field-wrapper {
+		max-width: 500px;
+		border: 2px solid #000000;
+		padding: 30px;
+		margin: 0;
+		background-color: rgba(203, 203, 203, .6);
+	}
+
+	#main-wrapper{
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display: flex;	
+	}
+	input {
+		height: $button-height-screen;
+   		flex-basis: 33%;
+    	flex-grow: 1;
+    	&:not(:nth-child(2)){
+    		margin-left: 0;
+    	}
+	}
+	#radio-wrapper {
+	    p{
+	    	height: $button-height-screen;
+	    	line-height: $button-height-screen;
+    	}
+
+	}
+
+
+	
+
+}
 
