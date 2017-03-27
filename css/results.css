@@ -7,7 +7,8 @@
 
 body {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  font-family: 'Roboto', sans-serif; }
 
 header {
   display: flex;
@@ -21,6 +22,10 @@ header {
   header img {
     max-height: 50px;
     height: 90%; }
+
+button {
+  background: none;
+  border: none; }
 
 #page-wrapper {
   height: 100vh;
@@ -55,17 +60,26 @@ header {
   width: 50%;
   background-color: #B2FF59; }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .result-link {
     width: 50%; }
 
   .btn-choose-flight {
     width: 30%; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
+  #main-wrapper {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
   .result-link {
-    width: 50%; }
+    width: 50%;
+    height: 50px; }
+    .result-link:hover {
+      border: none; }
 
   .btn-choose-flight {
-    width: 30%; } }
+    width: 20%;
+    height: 50px; } }
 
 /*# sourceMappingURL=results.css.map */

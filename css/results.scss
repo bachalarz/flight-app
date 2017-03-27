@@ -12,6 +12,7 @@ $primary-color: white;
 body {
 	width: 100vw;
 	height: 100vh;
+	font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -28,6 +29,11 @@ header{
 		max-height: 50px;
 		height: 90%;
 	}
+}
+
+button {
+	background: none;
+	border: none;
 }
 
 #page-wrapper{
@@ -73,7 +79,7 @@ header{
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
     .result-link {
     	width: 50%;
     }
@@ -85,16 +91,24 @@ header{
 
 
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
+    #main-wrapper {
+    	background-image: url(../img/background.jpg);
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+
     .result-link {
     	width: 50%;
+    	height: 50px;
 
     	&:hover{
-    	 
+    	 	border: none;
     	}
     }
 
     .btn-choose-flight{
-    	width: 30%;
+    	width: 20%;
+    	height: 50px;
     }
 }
