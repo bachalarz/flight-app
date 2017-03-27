@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight app</title>
+	<meta charset="utf8">
+	<title>Search flight</title>
+	<link rel="stylesheet" type="text/css" href="css/results.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+	<div id="page-wrapper">
+			
+
+		<header>
+			<button class="fa fa-arrow-circle-left"></button>
+			<img src="img/logo.png">
+		</header>
+
+		<div id="main-wrapper">
+		<div class="result-link link">RESULT 1 - INFO - INFO - INFO <div class="fa fa-plane"></div></div>
+		<div class="result-link link">RESULT 2 - INFO - INFO - INFO <div class="fa fa-plane"></div></div>
+		<div class="result-link link">RESULT 3 - INFO - INFO - INFO <div class="fa fa-plane"></div></div>
+		<div class="result-link link">RESULT 4 - INFO - INFO - INFO <div class="fa fa-plane"></div></div>
+		<div class="btn-choose-flight">CHOOSE FLIGHT</div>
+		</div> <!-- #main-wrapper -->
+
+	</div> <!-- #page-wrapper -->
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).on("click", ".result-link", function(){
+			$(".link").css("background-color", "white");
+			$(this).css("background-color", "#69F0AE");
+		});
+	</script>
+
+
+
+</body>
+</html>
