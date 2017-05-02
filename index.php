@@ -6,9 +6,11 @@
 	<meta name="author" content="Den seje gruppe">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="shortcut icon" type="image/png" href="img/logo.png"/>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style-main.css">
+	<link rel="stylesheet" type="text/css" href="css/style-header.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style-signup.css">
 	<link rel="stylesheet" type="text/css" href="css/style-login.css">
@@ -22,8 +24,11 @@
 </head>
 <body>
 
+	<div class="wrapper-main">
 
 <?php
+	
+	require_once "views/view-header.php";
 
 	require_once "views/view-signup.php";
 	require_once "views/view-login.php";
@@ -35,6 +40,8 @@
 	require_once "views/view-confirmation.php";
 
 ?>
+
+	</div> <!-- #main-wrapper -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
