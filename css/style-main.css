@@ -1,4 +1,46 @@
 /**********************************/
 /**********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 1em; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.wrapper-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #000000;
+  background-color: lightblue; }
+
+.view {
+  border: solid 1px black;
+  height: 100%;
+  width: 100%;
+  padding: 20px; }
+
+@media screen and (min-width: 800px) {
+  .wrapper-main {
+    background-color: steelblue; } }
+@media screen and (min-width: 1200px) {
+  .wrapper-main {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex; } }
 
 /*# sourceMappingURL=style-main.css.map */
