@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,yBAAyB;AAIzB,mBAAmB;AAMnB,iBAAiB",
+"sources": ["../../scss/constans/style-colors.scss"],
+"names": [],
+"file": "style-colors.css"
+}
