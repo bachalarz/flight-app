@@ -2,7 +2,10 @@
 
 <header>
 	<div class="wrapper-header container">
-		<button class="fa fa-arrow-circle-left"></button>
+		<div class="icons">
+			<i class="fa fa-user" aria-hidden="true"></i>
+			<i class="fa fa-search" aria-hidden="true"></i>
+		</div>
 		<img src="img/logo.png">
 	</div>
 </header>

@@ -1,18 +1,28 @@
 /**********************************/
 /**********************************/
+/* Font family */
+/* GRAY BAGROUND COLOR */
+/* HEADER BAGROUND COLOR */
+/* BUTTON COLORS */
+/* BORDER COLORS */
+/* FONT COLORS */
 header {
   display: flex;
   padding: 0px 20px;
   width: 100%;
   height: 60px;
-  background: red; }
+  background: #FFFFFF;
+  box-shadow: 10px 0px 30px #CCCCCC;
+  border: solid 1px #CCCCCC;
+  z-index: 1; }
   header .wrapper-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: yellow; }
+    align-items: center; }
+    header .wrapper-header .icons .fa {
+      font-size: 30px;
+      margin-right: 10px; }
     header .wrapper-header img {
-      max-height: 50px;
-      height: 90%; }
+      max-height: 50px; }
 
 /*# sourceMappingURL=style-header.css.map */
