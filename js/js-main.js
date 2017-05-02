@@ -45,8 +45,20 @@ function fnSignup() {
     }
 }
 
-
 function fnLogOut() {
    fnHideView();
    $(".view-login").show();
 }
+
+
+
+function setView(input) { 
+	
+	$(".view").hide();
+	var page = input;
+	$(".view-"+page).show();
+}
+
+
+
+
