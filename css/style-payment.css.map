@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
+"sources": ["../scss/style-payment.scss"],
+"names": [],
+"file": "style-payment.css"
+}
