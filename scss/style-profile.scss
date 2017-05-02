@@ -2,21 +2,30 @@
 //		Profile style
 /**********************************/
 
+.view-profile {
+	display: flex;
+	flex-direction: column;
+}
+
+
 .profile-wrapper {
 
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-color: blue;
 
 	.profile-info{
 
-
-
+		width: 100%;
 
 		&__text{
 
 
 
+
+			p {
+
+			}
 
 		}		
 

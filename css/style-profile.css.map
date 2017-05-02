@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC;AAEpC,gBAAiB;EAEhB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,KAAK",
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC;AAEpC,aAAc;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;;AAIvB,gBAAiB;EAEhB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,IAAI;EAEtB,8BAAa;IAEZ,KAAK,EAAE,IAAI",
 "sources": ["../scss/style-profile.scss"],
 "names": [],
 "file": "style-profile.css"
