@@ -28,7 +28,6 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden; }
 
-<<<<<<< HEAD
 button {
   cursor: pointer;
   display: block;
@@ -82,7 +81,7 @@ input {
 .inpLast {
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
-=======
+
 .box {
   -moz-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
@@ -91,7 +90,6 @@ input {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   background-color: #f7f7f7; }
->>>>>>> master
 
 .container {
   width: 100%;
