@@ -2,7 +2,10 @@
 //		Main JS
 /**********************************/
 
-console.log("main");
+// VÆLG STARTSIDE:
+var startside = "search";
+
+var flowBar = "search";
 
 fnHideView();
 $(".view-login").show();
@@ -11,12 +14,13 @@ $(".view-login").show();
 $(document).on("click",".link", function() {
 	// Get its data-go-to attribute
 	var sGoToWindow = $(this).attr("data-go-to");
-	console.log(sGoToWindow);
+	flowBar = sGoToWindow;
 	// If the sGoToWindow is set, hide current window and show next one
 	if (sGoToWindow != null || sGoToWindow != undefined) {
 		fnHideView();
 		$(".view-"+sGoToWindow).show();
 	} 
+	setFlowBar();
 });
 
 /**********************************/
@@ -45,8 +49,26 @@ function fnSignup() {
     }
 }
 
-
 function fnLogOut() {
    fnHideView();
    $(".view-login").show();
 }
+
+// Set new startpage
+
+if (startside == "") {
+	startside = "login";
+}
+setView(startside);
+function setView(input) { 
+	
+	$(".view").hide();
+	var page = input;
+	$(".view-"+page).show();
+}
+
+
+/**********************************/
+//		Flowbar
+/**********************************/
+

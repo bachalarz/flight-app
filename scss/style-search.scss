@@ -2,3 +2,50 @@
 //		Search style
 /**********************************/
 
+.view-search {
+	display: flex;
+}
+
+.search-wrapper {
+
+	height: 100%;
+	width: 100%;
+
+	.search-infoBox{
+
+		margin-top: 10px;
+		padding: 20px;
+
+		background-color: white;
+
+		&__fields{
+
+			input {
+				margin-bottom: 10px;
+			}
+			&__single, &__return{ 
+
+			}
+			&__return, &__minus {
+				display: none;
+			}
+			span {
+				display: flex;
+				margin-bottom: 15px;
+			}
+			i {
+				font-size: 20px;
+				cursor: pointer;;
+			}
+			span p {
+				margin-left: 10px;
+			}
+			i::hover {
+				cursor: pointer;;
+			}
+
+		}		
+	}
+}
+
+

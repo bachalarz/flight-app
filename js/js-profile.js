@@ -2,9 +2,12 @@
 //		Profile JS
 /**********************************/
 
-console.log(aUsers);
+fnPopulateProfilePage();
 
-function fnPopulateProfilePage() {
+function fnPopulateProfilePage(id) {
 	// body...
-	
+	var view = document.getElementsByClassName('view-profile')[0];
+
+
+
 }

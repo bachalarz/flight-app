@@ -41,6 +41,9 @@ button {
   border: 1px solid transparent;
   margin: 10px 0; }
 
+.link {
+  cursor: pointer; }
+
 .btnSuccess {
   color: #FFFFFF;
   background-color: #4CB897;
@@ -82,6 +85,18 @@ input {
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
 
+<<<<<<< HEAD
+=======
+.box {
+  -moz-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f7f7f7; }
+
+>>>>>>> 1aacb58684b673dab41a76db684ba26421887460
 .box {
   -moz-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
@@ -98,7 +113,7 @@ input {
   margin: 0 auto; }
 
 .wrapper-main {
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -12,11 +12,11 @@
 				<div class="profile-infoBox__text">
 
 					<p>Username: </p>
-					<input type="" name="">
+					<input class="input" id="input-name" type="" name="">
 					<p>Email: </p>
-					<input type="Email" name="">
+					<input class="input" id="input-email" type="Email" name="">
 					<p>Password: </p>
-					<input type="Password" name="">
+					<input class="input" id="input-password" type="Password" name="">
 
 				</div>
 
