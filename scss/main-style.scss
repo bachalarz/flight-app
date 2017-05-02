@@ -100,6 +100,7 @@ h1 {
 
 #search-field-wrapper {
 	width: 80%;
+
 	button{
 		flex-basis: 100%;
     	height: $button-height;
@@ -109,6 +110,15 @@ h1 {
     	}
 	}
 }
+
+.site-search {
+
+	&__field--left {
+
+	}
+
+}
+
 
 .fa-plus-circle::before {
     margin-right: 10px;
