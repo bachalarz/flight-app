@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,yBAAyB;AAIzB,mBAAmB;AAMnB,iBAAiB",
+"mappings": "AAEA,yBAAyB;AAGzB,2BAA2B;AAG3B,mBAAmB;AAKnB,mBAAmB;AAGnB,iBAAiB",
 "sources": ["../../scss/constans/style-colors.scss"],
 "names": [],
 "file": "style-colors.css"

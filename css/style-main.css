@@ -1,5 +1,11 @@
 /**********************************/
 /**********************************/
+/* Font family */
+/* GRAY BAGROUND COLOR */
+/* HEADER BAGROUND COLOR */
+/* BUTTON COLORS */
+/* BORDER COLORS */
+/* FONT COLORS */
 * {
   margin: 0;
   padding: 0;
@@ -23,24 +29,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #000000;
-  background-color: lightblue; }
+  background-color: #F1F3F2; }
 
 .view {
-  border: solid 1px black;
   height: 100%;
-  width: 100%;
+  width: 100;
+  padding: 0;
   padding: 20px; }
 
 @media screen and (min-width: 800px) {
   .wrapper-main {
-    background-color: steelblue; } }
+    background-color: #F1F3F2; } }
 @media screen and (min-width: 1200px) {
-  .wrapper-main {
-    background: url(../img/background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex; } }
+  .view {
+    padding: 20px 0; } }
 
 /*# sourceMappingURL=style-main.css.map */

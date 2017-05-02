@@ -2,6 +2,9 @@
 //		Main style
 /**********************************/
 
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+
 * {
 	margin: 0;
 	padding: 0;
@@ -29,37 +32,29 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 2px solid #000000;
-	background-color: lightblue;
+	background-color: $backgound-color;
 }
 
 .view {
-	border: solid 1px black;
 	height: 100%;
-	width: 100%;
+	width: 100;
+	padding: 0;
 	padding: 20px;
+	//display: none;
 }
 
 
 
 @media screen and ( min-width: 800px ) {
-
-
 	.wrapper-main{
-		background-color: steelblue;
+		background-color: $backgound-color;
 	}
 
 }
 
 @media screen and ( min-width: 1200px ) {
-
-	.wrapper-main{
-	background: url(../img/background.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	display: flex;	
-	
+	.view {
+		padding: 20px 0;
 	}
 
 }
