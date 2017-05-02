@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
-"sources": ["../scss/style-signup.scss"],
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC;ACDpC,iBAAiB;ACCjB,yBAAyB;AAGzB,2BAA2B;AAG3B,mBAAmB;AAKnB,mBAAmB;AAGnB,iBAAiB;AFTjB,YAAa;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM",
+"sources": ["../scss/style-signup.scss","../scss/constans/style-fonts.scss","../scss/constans/style-colors.scss"],
 "names": [],
 "file": "style-signup.css"
 }

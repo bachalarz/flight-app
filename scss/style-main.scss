@@ -32,8 +32,77 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	font-family: 'Roboto', sans-serif;
+	font-family: $primary-font-family;
 	overflow-x: hidden;
+}
+button {
+	cursor: pointer;
+    display: block;
+    width: 100%;
+    line-height: 1.13;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    margin: 10px 0;
+}
+.btnSuccess {
+	color: $primary-btn-font-color;
+	background-color: $primary-btn-color;
+	transition: .5s;
+	&:hover {
+		background-color: #3B8C71;
+	}
+}
+.btnDanger {
+	color: $primary-btn-font-color;
+	background-color: $secondary-btn-color;
+	transition: .5s;
+	&:hover {
+		background-color: #B5394E;
+	}
+}
+
+input {
+	width: 100%;
+	position: relative;
+	padding: 10px;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+
+.inpFirst {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: -1px;
+	&:focus {
+		z-index: 2;
+	}
+}
+.inpMiddle {
+	border-top-left-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.inpLast {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.box {
+	-moz-box-shadow: 0 7px 36px -13px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 7px 36px -13px rgba(0,0,0,.2);
+	box-shadow: 0 7px 36px -13px rgba(0,0,0,.2);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #f7f7f7;
 }
 
 .box {
@@ -68,7 +137,6 @@ body {
 	padding: 20px;
 	display: none;
 }
-
 
 
 @media screen and ( min-width: 800px ) {

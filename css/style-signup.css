@@ -1,4 +1,13 @@
 /**********************************/
 /**********************************/
+/* Font family */
+/* GRAY BAGROUND COLOR */
+/* HEADER BAGROUND COLOR */
+/* BUTTON COLORS */
+/* BORDER COLORS */
+/* FONT COLORS */
+.view-signup {
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=style-signup.css.map */
