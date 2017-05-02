@@ -14,9 +14,9 @@
 					<p>Username: </p>
 					<input type="" name="">
 					<p>Email: </p>
-					<input type="" name="">
+					<input type="Email" name="">
 					<p>Password: </p>
-					<input type="" name="">
+					<input type="Password" name="">
 
 				</div>
 

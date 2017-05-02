@@ -3,3 +3,8 @@
 /**********************************/
 
 console.log(aUsers);
+
+function fnPopulateProfilePage() {
+	// body...
+	
+}
