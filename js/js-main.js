@@ -3,7 +3,7 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
-var startside = "search";
+var startside = "login";
 
 var flowBar = "search";
 
@@ -20,6 +20,9 @@ $(document).on("click",".link", function() {
 		fnHideView();
 		$(".view-"+sGoToWindow).show();
 	} 
+
+
+
 	setFlowBar();
 });
 
@@ -37,6 +40,7 @@ $(document).on("click", "#btnSignup", function() {
 });
 
 var aUsers = [];
+var activeUser = {};
 
 function fnSignup() {
     //Grab the values

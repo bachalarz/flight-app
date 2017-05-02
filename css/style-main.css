@@ -85,11 +85,6 @@ input {
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0a8cce1b9f6f9ad390dc74647cf4878e63aea67c
 .box {
   -moz-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
@@ -98,19 +93,6 @@ input {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   background-color: #f7f7f7; }
-<<<<<<< HEAD
-
->>>>>>> 1aacb58684b673dab41a76db684ba26421887460
-.box {
-  -moz-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  background-color: #f7f7f7; }
-=======
->>>>>>> 0a8cce1b9f6f9ad390dc74647cf4878e63aea67c
 
 .container {
   width: 100%;
