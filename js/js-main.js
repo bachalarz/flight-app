@@ -36,7 +36,7 @@ function fnHideView() {
 
 
 $(document).on("click", "#btnSignup", function() {
-    fnSignup();
+	fnSignup();
 });
 
 var aUsers = [];
@@ -54,8 +54,8 @@ function fnSignup() {
 }
 
 function fnLogOut() {
-   fnHideView();
-   $(".view-login").show();
+	fnHideView();
+	$(".view-login").show();
 }
 
 // Set new startpage
@@ -75,4 +75,27 @@ function setView(input) {
 /**********************************/
 //		Flowbar
 /**********************************/
+
+
+
+/**********************************/
+//		Flights
+/**********************************/
+
+var ajoFlights = [
+	{
+		"id":"1",
+		"departFrom":"CPH",
+		"departTo":"BUD",
+		"departDate":"",
+		"departTime":"",
+		"arriveDate":"",
+		"arriveTime":"",
+		"flightDuration":"",
+		"company":""
+	}
+];
+
+
+
 

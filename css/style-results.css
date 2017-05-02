@@ -1,4 +1,31 @@
 /**********************************/
 /**********************************/
+.results-wrapper .results-list {
+  width: 100%;
+  background-color: white; }
+  .results-wrapper .results-list__element__details {
+    width: 100%;
+    display: flex; }
+    .results-wrapper .results-list__element__details__box {
+      flex-basis: 33.333333%;
+      padding: 20px 0; }
+      .results-wrapper .results-list__element__details__box p {
+        padding: 4px; }
+    .results-wrapper .results-list__element__details__left {
+      text-align: right;
+      background-color: white; }
+      .results-wrapper .results-list__element__details__left p {
+        margin-right: 16px; }
+    .results-wrapper .results-list__element__details__center {
+      text-align: center;
+      background-color: lightgray; }
+    .results-wrapper .results-list__element__details__right {
+      text-align: left;
+      background-color: white; }
+      .results-wrapper .results-list__element__details__right p {
+        margin-left: 16px; }
+  .results-wrapper .results-list__element button {
+    width: 200px;
+    float: right; }
 
 /*# sourceMappingURL=style-results.css.map */

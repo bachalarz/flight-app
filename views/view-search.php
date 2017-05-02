@@ -1,6 +1,6 @@
 <!-- Search -->
 
-<div class="view view-search container">
+<div class="view view-search">
 	
 	<div class="container">
 
