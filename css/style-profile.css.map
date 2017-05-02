@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC;AAEpC,gBAAiB;EAEhB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,KAAK",
 "sources": ["../scss/style-profile.scss"],
 "names": [],
 "file": "style-profile.css"
