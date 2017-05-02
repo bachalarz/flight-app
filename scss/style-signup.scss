@@ -1,4 +1,11 @@
 /**********************************/
-//		Signuo style
+//		Signup style
 /**********************************/
 
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+
+.view-signup {
+	display: flex;
+	flex-direction: column;
+}
