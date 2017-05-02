@@ -21,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style-details.css">
 	<link rel="stylesheet" type="text/css" href="css/style-payment.css">
 	<link rel="stylesheet" type="text/css" href="css/style-confirmation.css">
+	<link rel="stylesheet" type="text/css" href="css/style-flow-bar.css">
 
 </head>
 <body>
@@ -58,6 +59,7 @@
 	<script src="js/js-details.js"></script>
 	<script src="js/js-payment.js"></script>
 	<script src="js/js-confirmation.js"></script>
+	<script src="js/js-flow-bar.js"></script>
 
 </body>
 </html>

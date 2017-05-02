@@ -2,3 +2,72 @@
 //		Results style
 /**********************************/
 
+
+.results-wrapper {
+
+	.results-list {
+
+		width: 100%;
+		background-color: white;
+
+
+		&__element {
+
+
+			&__details{
+
+				width: 100%;
+				display: flex;
+
+				&__box {
+					flex-basis: 33.333333%;
+					padding: 20px 0;
+
+					p {
+						padding: 4px;
+					}
+
+				}
+
+				&__left {
+					text-align: right;
+					
+					background-color: white;
+
+					p {
+						margin-right: 16px;
+					}
+
+				}
+
+				&__center {
+					text-align: center;
+					background-color: lightgray;
+
+				}
+
+				&__right {
+					text-align: left;
+					background-color: white;
+
+					p {
+						margin-left: 16px;
+					}
+
+				}
+
+			}
+
+			button {
+
+				width: 200px;
+				float: right;
+
+
+			}
+
+		}
+
+	}
+
+}
