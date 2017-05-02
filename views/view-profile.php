@@ -22,6 +22,8 @@
 
 			</div>
 
+			<button data-go-to="login" class="btnDanger link">Logout</button>
+
 		</div>
 	</div>
 
