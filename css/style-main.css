@@ -11,7 +11,16 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif; }
+  * h1 {
+    font-size: 32px;
+    font-size: 2em;
+    font-weight: lighter; }
+  * p {
+    font-size: 16px;
+    font-size: 1em;
+    font-weight: lighter; }
 
 body {
   width: 100vw;
@@ -19,8 +28,18 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden; }
 
+.box {
+  -moz-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #f7f7f7; }
+
 .container {
   width: 100%;
+  height: 100%;
   max-width: 1000px;
   margin: 0 auto; }
 
@@ -33,8 +52,7 @@ body {
 
 .view {
   height: 100%;
-  width: 100;
-  padding: 0;
+  width: 100%;
   padding: 20px;
   display: none; }
 

@@ -6,7 +6,7 @@
 	<meta name="author" content="Den seje gruppe">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="shortcut icon" type="image/png" href="img/logo.png"/>
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style-main.css">

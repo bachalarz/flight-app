@@ -2,4 +2,4 @@
 //		Profile JS
 /**********************************/
 
-console.log("profile");
+console.log(aUsers);
