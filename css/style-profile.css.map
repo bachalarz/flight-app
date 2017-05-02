@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
+"sources": ["../scss/style-profile.scss"],
+"names": [],
+"file": "style-profile.css"
+}
