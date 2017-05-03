@@ -92,7 +92,8 @@ var ajoFlights = [
 		"arriveDate":"",
 		"arriveTime":"",
 		"flightDuration":"",
-		"company":""
+		"company":"",
+		"price":""
 	}
 ];
 
