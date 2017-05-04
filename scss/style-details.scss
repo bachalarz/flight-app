@@ -1,3 +1,17 @@
 /**********************************/
 //		Details style
 /**********************************/
+
+
+
+
+.form-control {
+	margin: 20px 0px;
+	input {
+		margin-top: 10px; 
+
+		&[type="radio"]{
+			max-width: 50px;
+		}
+	}
+}

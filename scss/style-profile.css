@@ -1,0 +1,13 @@
+/**********************************/
+/**********************************/
+.profile-wrapper {
+  height: 100%;
+  width: 100%; }
+  .profile-wrapper .profile-infoBox {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white; }
+    .profile-wrapper .profile-infoBox__text input {
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=style-profile.css.map */
