@@ -8,37 +8,91 @@
 
 		<div class="results-list">
 
-			<div class="result">
-
-
+			<div class="result box">
 				<div class="result__details">	
-
 					<div class="result__details__row">
+						<div class="result__details__row__left result__details__row__item">
 
-						<div class="result__details__left result__details__item">
-
-							<p class="departFrom">CPH</p>
-							<p class="departTime">09:00</p>
-
-						</div>
-
-						<div class="result__details__center result__details__item">
-
-							<p class="duration">9t 20min</p>
-							<p class="company">SAS</p>
+							<div class="detail-text departFrom">
+								<p>From</p>
+								<p>CPH</p>
+							</div>
+							<div class="detail-text departTime">
+								<p>Depart</p>
+								<p>09:00</p>
+							</div>
 
 						</div>
 
-						<div class="result__details__right result__details__item">
+						<div class="result__details__row__center result__details__row__item">
 
-							<p class="arriveTo">BUD</p>
-							<p class="arriveTime">18:20</p>
+							<div class="detail-text duration">
+								<p>Duration</p>
+								<p>9t 20min</p>
+							</div>
+							<div class="detail-text company">
+								<p>Agency</p>
+								<p>SAS</p>
+							</div>
+
+						</div>
+
+						<div class="result__details__row__right result__details__row__item">
+
+							<div class="detail-text arriveTo">
+								<p>BUD</p>
+								<p>To</p>
+							</div>
+							<div class="detail-text arriveTime">
+								<p>18:20</p>
+								<p>Arival</p>
+							</div>
 
 						</div>
 
 					</div>
 
+					<div class="result__details__row">
+						<div class="result__details__row__left result__details__row__item">
 
+							<div class="detail-text departFrom">
+								<p>From</p>
+								<p>BUD</p>
+							</div>
+							<div class="detail-text departTime">
+								<p>Depart</p>
+								<p>09:00</p>
+							</div>
+
+						</div>
+
+						<div class="result__details__row__center result__details__row__item">
+
+							<div class="detail-text duration">
+								<p>Duration</p>
+								<p>9t 20min</p>
+							</div>
+							<div class="detail-text company">
+								<p>Agency</p>
+								<p>SAS</p>
+							</div>
+
+						</div>
+
+						<div class="result__details__row__right result__details__row__item">
+
+							<div class="detail-text arriveTo">
+								<p>CPH</p>
+								<p>To</p>
+							</div>
+							<div class="detail-text arriveTime">
+								<p>18:20</p>
+								<p>Arival</p>
+							</div>
+
+						</div>
+
+					</div>
 				</div>
 
 
@@ -47,10 +101,11 @@
 					<p class="currency">DKK</p>
 					<h1 class="price">711</h1>
 
-					<button class="btnSuccess">Select Flight</button>
+					<button data-go-to="payment" class="btnSuccess link">Select Flight</button>
 				</div>
 
 			</div>
+
 
 		</div>
 
