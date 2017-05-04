@@ -47,6 +47,7 @@ button {
     vertical-align: middle;
     border: 1px solid transparent;
     margin: 10px 0;
+    outline: none;
 }
 .link{
 		cursor: pointer;
@@ -94,6 +95,7 @@ input {
 	border-bottom-right-radius: 0;
 }
 .inpLast {
+	
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }

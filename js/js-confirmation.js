@@ -2,4 +2,6 @@
 //		Confirmation JS
 /**********************************/
 
-console.log("confirmation");
+$(document).on("click", ".btnPrintCon", function(){
+	window.print();
+});
