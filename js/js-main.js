@@ -3,7 +3,8 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
-var startside = "login";
+
+var startside = "";
 
 var flowBar = "search";
 
@@ -44,12 +45,14 @@ var activeUser = {};
 
 function fnSignup() {
     //Grab the values
+    var sUserName = $('#inpUsername').val();
     var sEmail = $('#inpEmail').val();
     var sPassword = $('#inpPassword').val();
-    if (sEmail && sPassword) {
+    if (sUserName && sEmail && sPassword) {
         //Push to the array
-        aUsers.push({ "email": sEmail, "password": sPassword });
-        console.log(aUsers);
+
+        aUsers.push({"username": sUserName, "email": sEmail, "password": sPassword });
+        // console.log(aUsers);
     }
 }
 

@@ -39,7 +39,8 @@ button {
   white-space: nowrap;
   vertical-align: middle;
   border: 1px solid transparent;
-  margin: 10px 0; }
+  margin: 10px 0;
+  outline: none; }
 
 .link {
   cursor: pointer; }
@@ -66,20 +67,23 @@ input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+  outline: none; }
 
 .inpFirst {
   border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  margin-bottom: -1px; }
+  border-bottom-right-radius: 0; }
   .inpFirst:focus {
     z-index: 2; }
 
 .inpMiddle {
   border-top-left-radius: 0;
-  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-bottom-right-radius: 0;
+  margin-bottom: -1px; }
+  .inpMiddle:focus {
+    z-index: 3; }
 
 .inpLast {
   border-top-left-radius: 0;
