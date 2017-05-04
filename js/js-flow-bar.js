@@ -2,8 +2,6 @@
 //		Flow-bar JS
 /**********************************/
 
-console.log(flowBar);
-
 function setFlowBar() {
 	switch (flowBar) {
 	    case "search":

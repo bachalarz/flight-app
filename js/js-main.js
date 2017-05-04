@@ -3,7 +3,7 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
-var startside = "search";
+var startside = "confirmation";
 
 var flowBar = "search";
 
@@ -45,7 +45,6 @@ function fnSignup() {
     if (sEmail && sPassword) {
         //Push to the array
         aUsers.push({ "email": sEmail, "password": sPassword });
-        console.log(aUsers);
     }
 }
 
