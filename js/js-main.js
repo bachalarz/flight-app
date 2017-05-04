@@ -3,7 +3,7 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
-var startside = "payment";
+var startside = "login";
 
 var flowBar = "search";
 
