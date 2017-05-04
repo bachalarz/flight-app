@@ -4,7 +4,7 @@
 
 // VÆLG STARTSIDE:
 
-var startside = "";
+var startside = "confirmation";
 
 var flowBar = "search";
 
