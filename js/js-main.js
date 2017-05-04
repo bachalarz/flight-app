@@ -3,11 +3,8 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
-<<<<<<< HEAD
-=======
 
->>>>>>> 443587aeaa37d335d76e883ad56cd64ac7e553f6
-var startside = "confirmation";
+var startside = "";
 
 var flowBar = "search";
 
@@ -53,12 +50,9 @@ function fnSignup() {
     var sPassword = $('#inpPassword').val();
     if (sUserName && sEmail && sPassword) {
         //Push to the array
-<<<<<<< HEAD
-        aUsers.push({ "email": sEmail, "password": sPassword });
-=======
+
         aUsers.push({"username": sUserName, "email": sEmail, "password": sPassword });
         // console.log(aUsers);
->>>>>>> 443587aeaa37d335d76e883ad56cd64ac7e553f6
     }
 }
 
