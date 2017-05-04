@@ -1,4 +1,70 @@
 /**********************************/
 /**********************************/
+.view-confirmation {
+  display: flex; }
+
+.confirmation-infoBox {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  position: relative; }
+  .confirmation-infoBox p {
+    margin-bottom: 10px; }
+
+.flight-confirm-logo {
+  display: none;
+  width: 200px;
+  position: absolute;
+  animation-name: flight;
+  animation-duration: 4s;
+  left: 40%;
+  bottom: 70px; }
+
+.printInfo {
+  margin-top: 20px;
+  display: none;
+  color: red; }
+
+@media screen and (min-width: 800px) {
+  .flight-confirm-logo {
+    display: flex; }
+
+  .confirmation-infoBox p {
+    margin-bottom: 200px; } }
+@media print {
+  header, button {
+    display: none !important; }
+
+  .printInfo {
+    display: flex !important; } }
+@keyframes flight {
+  0% {
+    left: -250px;
+    bottom: 70px; }
+  20% {
+    left: 10%;
+    bottom: 70px; }
+  30% {
+    opacity: 1;
+    left: 10%;
+    bottom: 70px; }
+  50% {
+    opacity: 0;
+    transform: scaleX(1);
+    left: 120%;
+    bottom: 500px; }
+  70% {
+    opacity: 1;
+    transform: scaleX(-1);
+    left: 60%;
+    bottom: 70px; }
+  90% {
+    left: 60%;
+    transform: scaleX(-1);
+    bottom: 70px; }
+  100% {
+    left: 40%;
+    transform: scaleX(1);
+    bottom: 70px; } }
 
 /*# sourceMappingURL=style-confirmation.css.map */

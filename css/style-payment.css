@@ -1,4 +1,72 @@
 /**********************************/
 /**********************************/
+.view-payment {
+  display: flex; }
+
+.payment-wrapper {
+  height: 100%;
+  width: 100%; }
+  .payment-wrapper .payment-infoBox {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white; }
+    .payment-wrapper .payment-infoBox__fields input {
+      margin-bottom: 10px; }
+    .payment-wrapper .payment-infoBox__fields span {
+      display: flex;
+      margin-bottom: 15px; }
+    .payment-wrapper .payment-infoBox__fields i {
+      font-size: 20px;
+      cursor: pointer; }
+    .payment-wrapper .payment-infoBox__fields span p {
+      margin-left: 10px; }
+    .payment-wrapper .payment-infoBox__fields i::hover {
+      cursor: pointer; }
+    .payment-wrapper .payment-infoBox__fields__address {
+      display: flex;
+      flex-wrap: wrap; }
+      .payment-wrapper .payment-infoBox__fields__address div {
+        flex-basis: 100%;
+        display: flex; }
+        .payment-wrapper .payment-infoBox__fields__address div input:last-child {
+          margin-left: 10px; }
+    .payment-wrapper .payment-infoBox__fields__cardinfo {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      .payment-wrapper .payment-infoBox__fields__cardinfo div {
+        display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        margin-bottom: 10px; }
+        .payment-wrapper .payment-infoBox__fields__cardinfo div input {
+          margin-bottom: 0; }
+        .payment-wrapper .payment-infoBox__fields__cardinfo div p {
+          margin: 0 10px; }
+      .payment-wrapper .payment-infoBox__fields__cardinfo div:last-child p {
+        margin-left: 0; }
+    .payment-wrapper .payment-infoBox__fields__terms {
+      display: flex;
+      flex-basis: 100%;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 30px; }
+      .payment-wrapper .payment-infoBox__fields__terms p {
+        flex-basis: 97%; }
+      .payment-wrapper .payment-infoBox__fields__terms input {
+        flex-basis: 3%;
+        margin-bottom: 0; }
+    .payment-wrapper .payment-infoBox #btn-terms {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer; }
+
+.invalid-input {
+  border: 1px solid red; }
+
+.invalid-checkbox {
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 6px; }
 
 /*# sourceMappingURL=style-payment.css.map */

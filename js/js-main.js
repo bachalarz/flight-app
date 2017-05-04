@@ -3,6 +3,10 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 443587aeaa37d335d76e883ad56cd64ac7e553f6
 var startside = "confirmation";
 
 var flowBar = "search";
@@ -20,6 +24,9 @@ $(document).on("click",".link", function() {
 		fnHideView();
 		$(".view-"+sGoToWindow).show();
 	} 
+
+
+
 	setFlowBar();
 });
 
@@ -33,24 +40,31 @@ function fnHideView() {
 
 
 $(document).on("click", "#btnSignup", function() {
-    fnSignup();
+	fnSignup();
 });
 
 var aUsers = [];
+var activeUser = {};
 
 function fnSignup() {
     //Grab the values
+    var sUserName = $('#inpUsername').val();
     var sEmail = $('#inpEmail').val();
     var sPassword = $('#inpPassword').val();
-    if (sEmail && sPassword) {
+    if (sUserName && sEmail && sPassword) {
         //Push to the array
+<<<<<<< HEAD
         aUsers.push({ "email": sEmail, "password": sPassword });
+=======
+        aUsers.push({"username": sUserName, "email": sEmail, "password": sPassword });
+        // console.log(aUsers);
+>>>>>>> 443587aeaa37d335d76e883ad56cd64ac7e553f6
     }
 }
 
 function fnLogOut() {
-   fnHideView();
-   $(".view-login").show();
+	fnHideView();
+	$(".view-login").show();
 }
 
 // Set new startpage
@@ -70,4 +84,27 @@ function setView(input) {
 /**********************************/
 //		Flowbar
 /**********************************/
+
+
+
+/**********************************/
+//		Flights
+/**********************************/
+
+var ajoFlights = [
+	{
+		"id":"1",
+		"departFrom":"CPH",
+		"departTo":"BUD",
+		"departDate":"",
+		"departTime":"",
+		"arriveDate":"",
+		"arriveTime":"",
+		"flightDuration":"",
+		"company":""
+	}
+];
+
+
+
 
