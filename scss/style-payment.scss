@@ -1,0 +1,239 @@
+/**********************************/
+//		Payment style
+/**********************************/
+
+
+.view-payment {
+	display: flex;
+}
+
+.payment-wrapper {
+
+	height: 100%;
+	width: 100%;
+
+	.payment-infoBox{
+
+		margin-top: 10px;
+		padding: 20px;
+
+		background-color: white;
+
+		&__fields{
+
+			input {
+				margin-bottom: 10px;
+			}
+			span {
+				display: flex;
+				margin-bottom: 15px;
+			}
+			i {
+				font-size: 20px;
+				cursor: pointer;;
+			}
+			span p {
+				margin-left: 10px;
+			}
+			i::hover {
+				cursor: pointer;;
+			}
+
+			&__name{
+				display: flex;
+				flex-wrap: wrap;
+				div{
+					flex-basis: 100%;
+				}
+			}
+
+			&__address{
+
+				display: flex;
+				flex-wrap: wrap;
+				div{
+					flex-basis: 100%;
+					display: flex;
+		
+					input:last-child{
+						margin-left: 10px;
+					}
+
+				}
+
+
+				div:nth-child(2){
+					
+					input:first-child{
+						flex-basis: 150%;
+					}
+					input:last-child{
+						flex-basis: 40%;
+					}
+				}
+
+
+				div:last-child{
+					
+					input:first-child{
+						flex-basis: 60%;
+					}
+					input:last-child{
+						flex-basis: 130%;
+					}
+				}
+
+
+			}
+
+			&__cardinfo{
+				margin-top: 20px;
+				display: flex; 
+				flex-wrap: wrap;
+
+				div{
+					display: flex;
+					flex-basis: 100%;
+					align-items: center;
+					margin-bottom: 10px;
+					input{
+						margin-bottom: 0;
+					}
+
+					p{
+						margin: 0 10px;
+					}
+
+				}
+
+				div:last-child{
+					p{
+						margin-left: 0;
+					}
+				}
+			}
+
+
+			&__terms{
+				display: flex;
+				flex-basis: 100%;
+				align-items: center;
+				margin-bottom: 10px;
+				margin-top: 30px;
+
+				p{
+					flex-basis: 92%;
+				}
+
+				input{
+					width: 50px;
+					height: 50px;
+					flex-basis: 8%;
+					margin-bottom: 0;
+				}
+
+			}
+
+			#btn-terms{
+				color: blue;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+
+
+		}
+	}
+}
+
+
+.invalid-input{
+	border: 1px solid red;
+
+}
+
+.invalid-checkbox{
+	border: 1px solid red;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+
+
+
+/***********************************/
+/***********************************/
+/***********************************/
+
+
+@media screen and (min-width: 800px) {
+	.payment-wrapper {
+
+		.payment-infoBox{
+
+
+			&__fields{
+
+
+				&__name{
+
+					flex-wrap: nowrap;
+
+					:first-child{
+						margin-right: 10px;
+					}
+				}
+
+				&__terms{
+
+					p{
+						flex-basis: 97%;
+					}
+
+					input{
+						flex-basis: 3%;
+					}
+
+				}
+
+			}
+
+			
+
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+
+
+	.payment-wrapper {
+
+		.payment-infoBox{
+
+
+			&__fields{
+
+
+				&__phone-passport{
+					display: flex;
+					div{
+						flex-basis: 100%;
+
+					}
+
+					div:first-child{
+						margin-right: 10px;
+					}
+				}
+
+			}
+
+			
+
+		}
+	}
+  
+
+}
+
