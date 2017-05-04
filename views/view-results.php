@@ -101,7 +101,7 @@
 					<p class="currency">DKK</p>
 					<h1 class="price">711</h1>
 
-					<button data-go-to="payment" class="btnSuccess link">Select Flight</button>
+					<button data-go-to="details" class="btnSuccess link">Select Flight</button>
 				</div>
 
 			</div>

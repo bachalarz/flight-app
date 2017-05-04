@@ -25,7 +25,7 @@
       </div>
 
 
-    <button id="btn-details" class="btnSuccess">Accept details</button>
+    <button id="btn-details" data-go-to="payment" class="btnSuccess link">Accept details</button>
 
     </div>
 	
