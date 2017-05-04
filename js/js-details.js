@@ -2,4 +2,3 @@
 //		Details JS
 /**********************************/
 
-console.log("details");

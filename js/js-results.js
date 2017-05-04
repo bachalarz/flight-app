@@ -2,4 +2,3 @@
 //		Results JS
 /**********************************/
 
-console.log("results");

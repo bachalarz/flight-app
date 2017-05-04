@@ -4,7 +4,7 @@
 
 // VÆLG STARTSIDE:
 
-var startside = "confirmation";
+var startside = "";
 
 var flowBar = "search";
 
@@ -50,6 +50,7 @@ function fnSignup() {
     var sPassword = $('#inpPassword').val();
     if (sUserName && sEmail && sPassword) {
         //Push to the array
+
         aUsers.push({"username": sUserName, "email": sEmail, "password": sPassword });
         // console.log(aUsers);
     }
