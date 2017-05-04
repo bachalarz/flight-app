@@ -17,7 +17,7 @@ function fnLogin() {
     var sPassword = $('#inpLoginPassword').val();
     for (var i = 0; i < aUsers.length; i++) {
         if (sEmail == aUsers[i].email && sPassword == aUsers[i].password) {
-            activeUser = { "email": sEmail, "password": sPassword };
+            activeUser = {"username": aUsers[0].username, "email": sEmail, "password": sPassword };
 
             fnPopulateProfilePage();
             $(".view").hide();
