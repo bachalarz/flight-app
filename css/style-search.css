@@ -1,4 +1,28 @@
 /**********************************/
 /**********************************/
+.view-search {
+  display: flex; }
+
+.search-wrapper {
+  height: 100%;
+  width: 100%; }
+  .search-wrapper .search-infoBox {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white; }
+    .search-wrapper .search-infoBox__fields input {
+      margin-bottom: 10px; }
+    .search-wrapper .search-infoBox__fields__return, .search-wrapper .search-infoBox__fields__minus {
+      display: none; }
+    .search-wrapper .search-infoBox__fields span {
+      display: flex;
+      margin-bottom: 15px; }
+    .search-wrapper .search-infoBox__fields i {
+      font-size: 20px;
+      cursor: pointer; }
+    .search-wrapper .search-infoBox__fields span p {
+      margin-left: 10px; }
+    .search-wrapper .search-infoBox__fields i::hover {
+      cursor: pointer; }
 
 /*# sourceMappingURL=style-search.css.map */
