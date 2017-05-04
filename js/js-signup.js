@@ -9,3 +9,13 @@ $(document).on('click', '#btnSignup', function(){
 		$(".view-login").show();
 	}, 500);
 });
+
+/**********************************/
+//      Keys
+/**********************************/
+
+$('#inpUsername, #inpEmail, #inpPassword').keyup(function(event){
+    if(event.keyCode == 13){
+        $("#btnSignup").click();
+    }
+});

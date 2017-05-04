@@ -75,11 +75,6 @@ function setView(input) {
 }
 
 
-/**********************************/
-//		Flowbar
-/**********************************/
-
-
 
 /**********************************/
 //		Flights
@@ -95,7 +90,8 @@ var ajoFlights = [
 		"arriveDate":"",
 		"arriveTime":"",
 		"flightDuration":"",
-		"company":""
+		"company":"",
+		"price":""
 	}
 ];
 

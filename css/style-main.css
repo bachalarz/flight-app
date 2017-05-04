@@ -95,8 +95,7 @@ input {
   box-shadow: 0 7px 36px -13px rgba(0, 0, 0, 0.2);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
-  background-color: #f7f7f7; }
+  border-radius: 3px; }
 
 .container {
   width: 100%;

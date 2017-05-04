@@ -4,52 +4,114 @@
 
 	<div class="container">
 
-		<div class="results-wrapper">
+		<h1>Results</h1>
 
-			<h1>Results</h1>
+		<div class="results-list">
 
-			<div class="results-list">
+			<div class="result box">
+				<div class="result__details">	
+					<div class="result__details__row">
+						<div class="result__details__row__left result__details__row__item">
 
-				<div class="results-list__element box">
-
-					<div class="results-list__element__details">				
-
-						<div class="results-list__element__details__left results-list__element__details__box">
-
-							<p class="departFrom">CPH</p>
-							<hr>
-							<p class="departTime">09:00</p>
-
-						</div>
-
-						<div class="results-list__element__details__center results-list__element__details__box">
-
-							<p class="duration">9t 20min</p>
-							<hr>
-							<p class="company">SAS</p>
+							<div class="detail-text departFrom">
+								<p>From</p>
+								<p>CPH</p>
+							</div>
+							<div class="detail-text departTime">
+								<p>Depart</p>
+								<p>09:00</p>
+							</div>
 
 						</div>
 
-						<div class="results-list__element__details__right results-list__element__details__box">
+						<div class="result__details__row__center result__details__row__item">
 
-							<p class="arriveTo">BUD</p>
-							<hr>
-							<p class="arriveTime">18:20</p>
+							<div class="detail-text duration">
+								<p>Duration</p>
+								<p>9t 20min</p>
+							</div>
+							<div class="detail-text company">
+								<p>Agency</p>
+								<p>SAS</p>
+							</div>
 
 						</div>
+
+						<div class="result__details__row__right result__details__row__item">
+
+							<div class="detail-text arriveTo">
+								<p>BUD</p>
+								<p>To</p>
+							</div>
+							<div class="detail-text arriveTime">
+								<p>18:20</p>
+								<p>Arival</p>
+							</div>
+
+						</div>
+
 					</div>
 
-					<button class="results-list__element__btn btnSuccess">Select Flight</button>
+					<div class="result__details__row">
+						<div class="result__details__row__left result__details__row__item">
 
+							<div class="detail-text departFrom">
+								<p>From</p>
+								<p>BUD</p>
+							</div>
+							<div class="detail-text departTime">
+								<p>Depart</p>
+								<p>09:00</p>
+							</div>
+
+						</div>
+
+						<div class="result__details__row__center result__details__row__item">
+
+							<div class="detail-text duration">
+								<p>Duration</p>
+								<p>9t 20min</p>
+							</div>
+							<div class="detail-text company">
+								<p>Agency</p>
+								<p>SAS</p>
+							</div>
+
+						</div>
+
+						<div class="result__details__row__right result__details__row__item">
+
+							<div class="detail-text arriveTo">
+								<p>CPH</p>
+								<p>To</p>
+							</div>
+							<div class="detail-text arriveTime">
+								<p>18:20</p>
+								<p>Arival</p>
+							</div>
+
+						</div>
+
+					</div>
 				</div>
 
 
+				<div class="result__side">
+
+					<p class="currency">DKK</p>
+					<h1 class="price">711</h1>
+
+					<button data-go-to="payment" class="btnSuccess link">Select Flight</button>
+				</div>
+
 			</div>
 
-			<?php
-			require "view-flow.php";
-			?>
 
 		</div>
+
+		<?php
+		require "view-flow.php";
+		?>
+
 	</div>
 </div>
