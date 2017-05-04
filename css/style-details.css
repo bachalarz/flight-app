@@ -1,10 +1,19 @@
 /**********************************/
 /**********************************/
+.details-container {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white; }
+
 .form-control {
   margin: 20px 0px; }
   .form-control input {
     margin-top: 10px; }
     .form-control input[type="radio"] {
       max-width: 50px; }
+
+@media screen and (min-width: 800px) {
+  .form-control button {
+    max-width: 250px; } }
 
 /*# sourceMappingURL=style-details.css.map */

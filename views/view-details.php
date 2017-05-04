@@ -4,7 +4,8 @@
 
 <h1>Details</h1>
 
-	<div id="details-container ">
+	<div id="details-container">
+	<div class="details-container box">
 		<div class="ticket-type form-control">Ticket type: <br>
 		    <input type="radio" name="gender" value="male" checked> Economy<br>
 			<input type="radio" name="gender" value="female"> Premium Economy ( +30£ )<br>
@@ -25,13 +26,15 @@
       </div>
 
 
+	<?php
+		require "view-flow.php";
+	?>
+	 </div>
+
     <button id="btn-details" data-go-to="payment" class="btnSuccess link">Accept details</button>
 
     </div>
 	
 
-	<?php
-		require "view-flow.php";
-	?>
 
 </div>

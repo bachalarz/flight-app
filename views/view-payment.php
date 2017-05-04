@@ -83,7 +83,7 @@
 		
 		</div>
 
-		<button data-go-to="conformation" class="btnDanger btnBook">Book flight</button>
+		<button data-go-to="confirmation" class="btnDanger btnBook">Book flight</button>
 
 
 	</div>

@@ -6,6 +6,11 @@
 /* BUTTON COLORS */
 /* BORDER COLORS */
 /* FONT COLORS */
+.results-list-wrapper {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white; }
+
 .results-list {
   width: 100%;
   background-color: #F1F3F2; }

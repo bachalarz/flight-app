@@ -2,8 +2,11 @@
 //		Details style
 /**********************************/
 
-
-
+.details-container{
+		margin-top: 10px;
+		padding: 20px;
+		background-color: white;
+}
 
 .form-control {
 	margin: 20px 0px;
@@ -13,5 +16,14 @@
 		&[type="radio"]{
 			max-width: 50px;
 		}
+	} 
+}
+
+@media screen and (min-width: 800px) {
+	.form-control {
+		button {
+			max-width: 250px;
+		}
 	}
+
 }
