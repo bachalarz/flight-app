@@ -15,11 +15,11 @@
   font-family: "Open Sans", sans-serif; }
   * h1 {
     font-size: 32px;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: lighter; }
   * p {
     font-size: 16px;
-    font-size: 1em;
+    font-size: .9em;
     font-weight: lighter; }
 
 body {
@@ -114,6 +114,12 @@ input {
   display: none; }
 
 @media screen and (min-width: 800px) {
+  p {
+    font-size: 1em; }
+
+  h1 {
+    font-size: 2em; }
+
   .wrapper-main {
     background-color: #F1F3F2; } }
 @media screen and (min-width: 1200px) {

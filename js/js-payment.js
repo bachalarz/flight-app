@@ -28,17 +28,20 @@ $(document).on("click", ".btnBook", function() {
 
 
 function fnCheckInputs(form) {
+	
+	var aoOne 	= form.children("div").children("input");
+	var aoTwo 	= form.children(".payment-infoBox__fields__phone-passport").children("div").children("input");
+	var aoThree = form.children(".payment-infoBox__fields__name").children("div").children("input");
+	var aoFour 	= form.children(".payment-infoBox__fields__address").children("div").children("input");
+	var aoFive 	= form.children(".payment-infoBox__fields__cardinfo").children("input");
+	var aoSix 	= form.children(".payment-infoBox__fields__cardinfo").children("div").children("input");
 
-	var aoOne 	= form.children("input");
-	var aoTwo 	= form.children("div").children("input");
-	var aoThree = form.children(".payment-infoBox__fields__address").children("div").children("input");
-	var aoFour 	= form.children(".payment-infoBox__fields__cardinfo").children("input");
-	var aoFive 	= form.children(".payment-infoBox__fields__cardinfo").children("div").children("input");
 
-	var aoChildrenOne = $.merge(aoOne, aoTwo, aoFour);
-	var aoChildrenTwo = $.merge(aoThree, aoFive);
+	var aoChildrenOne = $.merge(aoOne, aoTwo, aoFive);
+	var aoChildrenTwo = $.merge(aoThree, aoFour);
+	var aoChildrenThree = $.merge(aoChildrenTwo, aoSix);
 
-	var aoChildren = $.merge(aoChildrenOne, aoChildrenTwo);
+	var aoChildren = $.merge(aoChildrenOne, aoChildrenThree);
 
 	$("#terms-check").parent("div").removeClass("invalid-checkbox");
 
@@ -48,7 +51,6 @@ function fnCheckInputs(form) {
         var sText = oInput.val();
         if(sText == "") {
         	oInput.addClass("invalid-input");
-        	console.log("Inputs unfilled");
         }
         
     }	

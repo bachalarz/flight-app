@@ -3,7 +3,7 @@
 /**********************************/
 
 // VÆLG STARTSIDE:
-var startside = "login";
+var startside = "search";
 
 var flowBar = "search";
 

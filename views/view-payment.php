@@ -13,11 +13,16 @@
 				<!-- <form id="frmBook"> -->
 
 					
-
-					<p>First name:</p>
-					<input type="text" name="first-name">
-					<p>Surname: </p>
-					<input type="text" name="surname">
+					<div class="payment-infoBox__fields__name">
+						<div>
+							<p>First name:</p>
+							<input type="text" name="first-name">
+						</div>
+						<div>
+							<p>Surname: </p>
+							<input type="text" name="surname">
+						</div>
+					</div>
 
 					<div class="payment-infoBox__fields__address">
 
@@ -34,10 +39,18 @@
 
 					</div>
 
-					<p>Phonenumber: </p>
-					<input type="number" name="phone-number">
-					<p>Passport number: </p>
-					<input type="number" name="passport-number">
+					<div class="payment-infoBox__fields__phone-passport">
+
+						<div>
+							<p>Phonenumber: </p>
+							<input type="number" name="phone-number">
+						</div>
+						<div>
+							<p>Passport number: </p>
+							<input type="number" name="passport-number">
+						</div>
+						
+					</div>
 
 					<div class="payment-infoBox__fields__cardinfo">
 						<p>Card information: </p>

@@ -4,7 +4,6 @@
 
 
 .view-payment {
-	// position: relative;
 	display: flex;
 }
 
@@ -40,6 +39,14 @@
 				cursor: pointer;;
 			}
 
+			&__name{
+				display: flex;
+				flex-wrap: wrap;
+				div{
+					flex-basis: 100%;
+				}
+			}
+
 			&__address{
 
 				display: flex;
@@ -51,7 +58,32 @@
 					input:last-child{
 						margin-left: 10px;
 					}
+
 				}
+
+
+				div:nth-child(2){
+					
+					input:first-child{
+						flex-basis: 150%;
+					}
+					input:last-child{
+						flex-basis: 40%;
+					}
+				}
+
+
+				div:last-child{
+					
+					input:first-child{
+						flex-basis: 60%;
+					}
+					input:last-child{
+						flex-basis: 130%;
+					}
+				}
+
+
 			}
 
 			&__cardinfo{
@@ -90,29 +122,33 @@
 				margin-top: 30px;
 
 				p{
-					flex-basis: 97%;
+					flex-basis: 92%;
 				}
 
 				input{
-					flex-basis: 3%;
+					width: 50px;
+					height: 50px;
+					flex-basis: 8%;
 					margin-bottom: 0;
 				}
+
 			}
 
-		}
+			#btn-terms{
+				color: blue;
+				text-decoration: underline;
+				cursor: pointer;
+			}
 
-		#btn-terms{
-			color: blue;
-			text-decoration: underline;
-			cursor: pointer;
-		}
 
+		}
 	}
 }
 
 
 .invalid-input{
 	border: 1px solid red;
+
 }
 
 .invalid-checkbox{
@@ -121,4 +157,83 @@
     border-radius: 6px;
 }
 
+
+
+
+
+/***********************************/
+/***********************************/
+/***********************************/
+
+
+@media screen and (min-width: 800px) {
+	.payment-wrapper {
+
+		.payment-infoBox{
+
+
+			&__fields{
+
+
+				&__name{
+
+					flex-wrap: nowrap;
+
+					:first-child{
+						margin-right: 10px;
+					}
+				}
+
+				&__terms{
+
+					p{
+						flex-basis: 97%;
+					}
+
+					input{
+						flex-basis: 3%;
+					}
+
+				}
+
+			}
+
+			
+
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+
+
+	.payment-wrapper {
+
+		.payment-infoBox{
+
+
+			&__fields{
+
+
+				&__phone-passport{
+					display: flex;
+					div{
+						flex-basis: 100%;
+
+					}
+
+					div:first-child{
+						margin-right: 10px;
+					}
+				}
+
+			}
+
+			
+
+		}
+	}
+  
+
+}
 

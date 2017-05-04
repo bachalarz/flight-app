@@ -22,6 +22,11 @@
       margin-left: 10px; }
     .payment-wrapper .payment-infoBox__fields i::hover {
       cursor: pointer; }
+    .payment-wrapper .payment-infoBox__fields__name {
+      display: flex;
+      flex-wrap: wrap; }
+      .payment-wrapper .payment-infoBox__fields__name div {
+        flex-basis: 100%; }
     .payment-wrapper .payment-infoBox__fields__address {
       display: flex;
       flex-wrap: wrap; }
@@ -30,6 +35,14 @@
         display: flex; }
         .payment-wrapper .payment-infoBox__fields__address div input:last-child {
           margin-left: 10px; }
+      .payment-wrapper .payment-infoBox__fields__address div:nth-child(2) input:first-child {
+        flex-basis: 150%; }
+      .payment-wrapper .payment-infoBox__fields__address div:nth-child(2) input:last-child {
+        flex-basis: 40%; }
+      .payment-wrapper .payment-infoBox__fields__address div:last-child input:first-child {
+        flex-basis: 60%; }
+      .payment-wrapper .payment-infoBox__fields__address div:last-child input:last-child {
+        flex-basis: 130%; }
     .payment-wrapper .payment-infoBox__fields__cardinfo {
       margin-top: 20px;
       display: flex;
@@ -52,11 +65,13 @@
       margin-bottom: 10px;
       margin-top: 30px; }
       .payment-wrapper .payment-infoBox__fields__terms p {
-        flex-basis: 97%; }
+        flex-basis: 92%; }
       .payment-wrapper .payment-infoBox__fields__terms input {
-        flex-basis: 3%;
+        width: 50px;
+        height: 50px;
+        flex-basis: 8%;
         margin-bottom: 0; }
-    .payment-wrapper .payment-infoBox #btn-terms {
+    .payment-wrapper .payment-infoBox__fields #btn-terms {
       color: blue;
       text-decoration: underline;
       cursor: pointer; }
@@ -68,5 +83,25 @@
   border: 1px solid red;
   padding: 5px;
   border-radius: 6px; }
+
+/***********************************/
+/***********************************/
+/***********************************/
+@media screen and (min-width: 800px) {
+  .payment-wrapper .payment-infoBox__fields__name {
+    flex-wrap: nowrap; }
+    .payment-wrapper .payment-infoBox__fields__name :first-child {
+      margin-right: 10px; }
+  .payment-wrapper .payment-infoBox__fields__terms p {
+    flex-basis: 97%; }
+  .payment-wrapper .payment-infoBox__fields__terms input {
+    flex-basis: 3%; } }
+@media screen and (min-width: 1200px) {
+  .payment-wrapper .payment-infoBox__fields__phone-passport {
+    display: flex; }
+    .payment-wrapper .payment-infoBox__fields__phone-passport div {
+      flex-basis: 100%; }
+    .payment-wrapper .payment-infoBox__fields__phone-passport div:first-child {
+      margin-right: 10px; } }
 
 /*# sourceMappingURL=style-payment.css.map */
