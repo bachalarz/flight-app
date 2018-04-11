@@ -1,4 +1,10 @@
 /**********************************/
 /**********************************/
+.form-control {
+  margin: 20px 0px; }
+  .form-control input {
+    margin-top: 10px; }
+    .form-control input[type="radio"] {
+      max-width: 50px; }
 
 /*# sourceMappingURL=style-details.css.map */
